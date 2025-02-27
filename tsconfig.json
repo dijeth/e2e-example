@@ -1,0 +1,16 @@
+{
+  "include": ["playwright.config.*", "e2e/**/*.ts"],
+  "compilerOptions": {
+    "composite": true,
+    "module": "ESNext",
+    "strictPropertyInitialization": false,
+
+    "types": ["node"]
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS",
+      "target": "ES6"
+    }
+  }
+}

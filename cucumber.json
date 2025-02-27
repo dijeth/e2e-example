@@ -1,0 +1,10 @@
+{
+  "default": {
+    "paths": ["e2e/features/**/*.feature"],
+    "requireModule": ["ts-node/register"],
+    "require": ["e2e/cucumber-setup/**/*.ts", "e2e/step-definitions/**/*.ts"],
+    "worldParameters": {
+      "appUrl": "https://tretyakovsky.ru/catalog2"
+    }
+  }
+}

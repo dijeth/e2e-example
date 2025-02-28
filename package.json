@@ -4,7 +4,8 @@
   "description": "Example for stack: cucumber, playwright, allure-report, github actions, github pages",
   "scripts": {
     "e2e": "cucumber-js",
-    "e2e:report": "cucumber-js --format allure-cucumberjs/reporter --format-options '{ \"resultsDir\": \"allure-results\" }'"
+    "e2e:report": "cucumber-js --format allure-cucumberjs/reporter --format-options '{ \"resultsDir\": \"allure-results\" }'",
+    "e2e:report:serve": "allure serve allure-results"
   },
   "author": "dijeth",
   "license": "ISC",

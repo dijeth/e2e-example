@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Fri Feb 28 09:37:31 GMT 2025","Fri Feb 28 09:38:09 GMT 2025","38067","","","","","","Open catalog and verify that clicking the Next button changes both: the main image and the thrumbnail",""
+"passed","Fri Feb 28 09:37:24 GMT 2025","Fri Feb 28 09:37:31 GMT 2025","6928","","","","","","Open catalog and verify that the address, descriptions, main image, and thrumbnails are displayed",""
